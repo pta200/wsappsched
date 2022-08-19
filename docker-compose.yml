@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  # flask app
+  service:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: wsappsched-service
+    ports:
+      - "8000:8000"
