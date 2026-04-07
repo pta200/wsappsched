@@ -7,8 +7,8 @@ import uuid
 import eventlet
 from flask import Flask, render_template
 from flask.logging import create_logger
-from rdwebsocket import socketio
-from rdsched import aps_scheduler
+from wsappsched.rdwebsocket import socketio
+from wsappsched.rdsched import aps_scheduler
 
 
 # for background scheduler

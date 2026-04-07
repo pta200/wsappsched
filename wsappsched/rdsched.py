@@ -3,7 +3,7 @@ Scheduler
 """
 import logging
 from flask_apscheduler import APScheduler
-from rdwebsocket import socketio, websocket_counter
+from wsappsched.rdwebsocket import socketio, websocket_counter
 
 logger = logging.getLogger("app.scheduler")
 aps_scheduler = APScheduler()
